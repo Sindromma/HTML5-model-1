@@ -94,6 +94,11 @@ body {
     margin-left: 97px;
 }
 
+.about-video:active {
+    outline: none;
+    border: none;
+}
+
 .pluses-product {
     width: 100%;
     min-height: 417px;
@@ -174,9 +179,15 @@ body {
 
 }
 
+.screenshort-img {
+    min-width: 200px;
+}
+
 .screenshorts-content {
     margin-left: 15px;
 }
+
+
 
 .screenshorts-h3 {
     margin: 0 0 5px 0;
@@ -359,6 +370,17 @@ body {
     text-decoration: none;
     margin: 0 20px;
     border-radius: 5px;
+}
+
+.buy-standart-btn:hover {
+    border: 1px solid black;
+    color: black;
+}
+
+.buy-standart-btn:active {
+    border: 1px solid black;
+    color: black;
+    background-color: aquamarine;
 }
 
 .buy-premium{

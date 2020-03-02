@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
 </head>
 
 <body>
@@ -77,34 +78,34 @@
             <span class="reviews-header">Reviews</span>
             <article class="reviews-block">
                 <div class="reviews-block-img"></div>
-                <div class="content">
+                <div class="reviews-block-content">
                     <p class="reviews-block-text">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?
                     </p>
-                    <p class="reviews-block-author">Lourens S.</p>
+                    <span class="reviews-block-author">Lourens S.</span>
                 </div>
             </article>
             <article class="reviews-block">
                 <div class="reviews-block-img"></div>
-                <div class="content">
+                <div class="reviews-block-content">
                     <p class="reviews-block-text">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?
                     </p>
-                    <p class="reviews-block-author">Lourens S.</p>
+                    <span class="reviews-block-author">Lourens S.</span>
                 </div>
             </article>
             <article class="reviews-block">
                 <div class="reviews-block-img"></div>
-                <div class="content">
+                <div class="reviews-block-content">
                     <p class="reviews-block-text">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?
                     </p>
-                    <p class="reviews-block-author">Lourens S.</p>
+                    <span class="reviews-block-author">Lourens S.</span>
                 </div>
             </article>
             <article class="reviews-block">
                 <div class="reviews-block-img"></div>
-                <div class="content">
+                <div class="reviews-block-content">
                     <p class="reviews-block-text">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?
                     </p>
-                    <p class="reviews-block-author">Lourens S.</p>
+                    <span class="reviews-block-author">Lourens S.</span>
                 </div>
             </article>
         </section>
@@ -112,7 +113,7 @@
             <span class="buy-header">Buy it now</span>
             <div class="buy-standart">
                 <span class="buy-standart-header">Standart</span>
-                <p class="buy-standart-sum">$100</p>
+                <span class="buy-standart-sum">$100</span>
                 <ol class="buy-standart-menu">
                     <li class="buy-standart-list">Porro officia cumque sint deleniti;</li>
                     <li class="buy-standart-list">Тemo facere rem vitae odit;</li>
@@ -123,7 +124,7 @@
             </div>
             <div class="buy-premium">
                 <span class="buy-standart-header">Premium</span>
-                <p class="buy-standart-sum">$150</p>
+                <span class="buy-standart-sum">$150</span>
                 <ol class="buy-standart-menu">
                     <li class="buy-standart-list">Porro officia cumque sint deleniti;</li>
                     <li class="buy-standart-list">Тemo facere rem vitae odit;</li>
@@ -138,7 +139,7 @@
             </div>
             <div class="buy-lux">
                 <span class="buy-standart-header">Lux</span>
-                <p class="buy-standart-sum">$200</p>
+                <span class="buy-standart-sum">$200</span>
                 <ol class="buy-standart-menu">
                     <li class="buy-standart-list">Porro officia cumque sint deleniti;</li>
                     <li class="buy-standart-list">Тemo facere rem vitae odit;</li>
@@ -158,7 +159,47 @@
         </section>
 
     </main>
-    <footer></footer>
+    <footer>
+        <div class="contacts-grey-part padding-site">
+            <span class="contacts-header">Contacts</span>
+            <form action="#" class="contacts-form">
+                <div>
+                    <!--<label>-->
+                    <input type="text" placeholder="Your name:" class="contacts-date">
+                    <!--</label>-->
+                </div>
+                <div>
+                    <!--<label>-->
+                    <input type="text" placeholder="Your email:" class="contacts-date">
+                    <!--</label>-->
+                </div>
+                <div>
+                    <!--<label>-->
+                    <textarea name="text" placeholder="Your message:" cols="20" rows="5" class="contacts-message"></textarea>
+                    <!--</label>-->
+                </div>
+                <div>
+                    <!--<label>-->
+                    <input type="submit" value="send" class="contacts-btn">
+                    <!--</label>-->
+                </div>
+            </form>
+            <div class="contacts-details">
+                <ul class="contacts-menu">
+                    <li class="contacts-list"><i class="fab fa-skype"></i>here_your_login_skype</li>
+                    <li class="contacts-list"> 279679659</li>
+                    <li class="contacts-list"><i class="fas fa-at"></i>psdhtmlcss@mail.ru</li>
+                    <li class="contacts-list"><i class="fas fa-phone"></i>80 00 4568 55 55</li>
+                </ul>
+                <a href="#" class="contacts-social-items"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="contacts-social-items"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="contacts-social-items"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="contacts-social-items"></a>
+                <a href="#" class="contacts-social-items"></a>
+            </div>
+        </div>
+        <span class="copyright">Copyright &copy; 2014 Product name - PSD HTML CSS</span>
+    </footer>
 
 </body>
 

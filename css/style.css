@@ -254,16 +254,18 @@ body {
 }
 
 
-.content {
+.reviews-block-content {
     margin: 0 0 24px 16px;
+    padding: 16px 20px;
     border: 1px solid #ebebeb;
     border-radius: 8px;
     text-align: justify;
     background-color: #ebebeb;
     position: relative;
+    box-sizing: border-box;
 }
 
-.content:before {
+.reviews-block-content:before {
     content: "";
     display: block;
     border: 15px solid transparent;
@@ -279,7 +281,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
-    margin: 16px 20px 15px 27px;
+    margin: 0 0 15px 0;
 
 }
 
@@ -288,7 +290,8 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
-    margin: 0 0 16px 27px;
+    margin: 0;
+
 }
 
 .buy {
@@ -317,7 +320,7 @@ body {
     border: 1px solid #445162;
     box-sizing: border-box;
     border-radius: 5px;
-    margin:0 45px 0 95px;
+    margin: 0 45px 0 95px;
 }
 
 .buy-standart-header {
@@ -341,12 +344,14 @@ body {
     border: 1px solid #445162;
     box-sizing: border-box;
     margin: 0 0 19px 0;
+    display: block;
 }
 
 .buy-standart-menu {
     margin: 0 0 19px 0;
     padding: 0 20px;
 }
+
 .buy-standart-list {
     color: #ffffff;
     font-size: 14px;
@@ -362,7 +367,7 @@ body {
     line-height: 18px;
     text-transform: uppercase;
     display: block;
-    text-align:center;
+    text-align: center;
     border: 1px solid #445161;
     padding: 14px 111px 14px 111px;
     box-sizing: border-box;
@@ -383,7 +388,7 @@ body {
     background-color: aquamarine;
 }
 
-.buy-premium{
+.buy-premium {
     width: 300px;
     min-height: 404px;
     background-color: #445162;
@@ -391,7 +396,7 @@ body {
     border: 1px solid #445162;
     box-sizing: border-box;
     border-radius: 5px;
-    margin-right:45px;
+    margin-right: 45px;
 }
 
 .buy-lux {
@@ -402,4 +407,143 @@ body {
     border: 1px solid #445162;
     box-sizing: border-box;
     border-radius: 5px;
+}
+
+.contacts-grey-part {
+    width: 100%;
+    min-height: 509px;
+    background-color: #445162;
+
+}
+
+.contacts-header {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 31px;
+}
+
+.contacts-form {
+    margin-left: 199px;
+    float: left;
+}
+
+.contacts-form {
+    width: 500px;
+    min-height: 170px;
+}
+
+.contacts-date {
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 8px 329px 8px 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 21px;
+    border: 1px solid #445162;
+}
+
+.contacts-message {
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 13px 316px 37px 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    resize: none;
+    margin-bottom: 21px;
+}
+
+.contacts-btn {
+    margin: 0 auto;
+    display: block;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 8px 49px 8px 49px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.contacts-details {
+    float: right;
+    margin: 0 241px 0 0;
+}
+
+.contacts-menu {
+    list-style-type: none;
+}
+
+/*@font-face {
+    font-family: 'fontello';
+    src: url('font/fontello.eot');
+    src: url('font/fontello.woff') format('woff'),
+        url('font/fontello.ttf') format('ttf'),
+        url('font/fontello.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+.contacts-list {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 29px;
+}
+
+/*.contacts-list:before {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 26px;
+    background-image: url();
+
+}*/
+
+
+.fa-skype {
+    font-size: 24px;
+}
+
+.fa-at {
+    font-size: 24px;
+}
+
+.fa-phone {
+    font-size: 24px;
+}
+
+.contacts-social-items {
+    background-color: #ffffff;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+.fa-twitter {
+    color: #445162;
+    font-size: 12px;
+}
+
+.copyright {
+    width: 100%;
+    min-height: 26px;
+    display: block;
+    text-align: center;
+    background-color: #f5f5f5;
+    border:1px solid #f5f5f5;
+    box-sizing: border-box;
+    font-size: 15px;
 }
